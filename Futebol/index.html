@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cima">
+        <span id="logo">FUTEBOL CARDS</span>
+        <span id="imersao">#imersaodev</span>
+        <span id="texto">DIGITE O <u>NOME</u> DO TIME OU <u>SELECIONE</u> DA LISTA</span>
+        <div class="dropdown">
+            <button class="dropbtn" >LISTA</button>
+            <ul class="dropdown-content">
+                <li id="0" value="0" onclick="passaValor(this.value)">Real Madrid</li>
+                <li id="1" value="1" onclick="passaValor(this.value)">Barcelona</li>
+                <li id="2" value="2" onclick="passaValor(this.value)">Manchester City</li>
+                <li id="3" value="3" onclick="passaValor(this.value)">Bayern de Munique</li>
+                <li id="4" value="4" onclick="passaValor(this.value)">Paris Saint Germain</li>
+            </ul>
+        </div>
+            <input id="time" type="text">
+            <input id="ok" type="submit" value="OK" onclick="exibirTime()">
+    </div>
+      
+      <div id="baixo">
+        <div id="escudo">  </div>
+        <div id="descricao">  </div>
+        
+      </div>
+    
+      <script src="app.js"></script>
+</body>
+</html>

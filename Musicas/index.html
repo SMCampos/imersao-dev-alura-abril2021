@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Oswald:wght@600&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Dancing+Script:wght@500&family=Oswald:wght@600&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Músicas</title>
+</head>
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  
+    <div class="container">
+       <h1 class="page-title">ROCK MUSIC</h1>
+       
+       <p class="page-subtitle">Rock'n roll não é vestir preto, rock'n roll é ter um cérebro.</p>
+       <div class="caixa">
+         <input class = "musica" type="text" id="musica" name="musica" placeholder="Digite o nome da música" toLowerCase>
+         <button class= "button" onClick="adicionarMusica()">Tocar Música</button>
+         <button class= "button" onClick="catalago()">Quer uma ajuda?</button></div>
+     </div>
+  
+  
+       
+           <h3 class="mensagem"> Se não sabe qual escolher, peça ajuda!</h3>
+        
+        
+          <div id="myModal" class="modal">
+           <div class="modal-content">
+           <span class="close">&times</span>
+           <div class="digiteNome">Digite o nome de uma dessas músicas:</div>
+        
+           <p style=float:left; class="texto">
+              - Back in Black <br>
+              - Highway to Hell<br>
+              - Thunderstruck<br>
+              - Back in Black <br>
+              - Highway to Hell<br>
+              - Thunderstruck<br>
+            </p>
+            <p class="texto" >
+              - Back in Black <br>
+              - Highway to Hell<br>
+              - Thunderstruck<br>
+              - Back in Black <br>
+              - Highway to Hell<br>
+              - Thunderstruck<br>
+          </p>
+           </div>
+    
+   <a href="https://alura.com.br/" target="_blank">
+     <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+   
+ </div>
+  <div class= "link" id="listaMusica">
+ <iframe title="iframe" width="420" height="315"  allowfullscreen></iframe>
+
+    <script src="app.js"></script>
+</body>
+</html>
